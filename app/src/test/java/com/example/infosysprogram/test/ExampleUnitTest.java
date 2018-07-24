@@ -1,4 +1,4 @@
-package com.example.lenovo.test;
+package com.example.infosysprogram.test;
 
 import org.junit.Test;
 

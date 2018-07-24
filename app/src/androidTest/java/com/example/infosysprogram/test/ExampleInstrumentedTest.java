@@ -1,4 +1,4 @@
-package com.example.lenovo.test;
+package com.example.infosysprogram.test;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
