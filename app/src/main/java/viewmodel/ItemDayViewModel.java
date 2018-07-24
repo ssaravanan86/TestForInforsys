@@ -84,8 +84,9 @@ public class ItemDayViewModel extends BaseObservable {
         RequestOptions requestOptions = new RequestOptions();
         requestOptions.placeholder(R.drawable.ic_launcher_background);
         requestOptions.error(R.drawable.ic_launcher_background);
+        requestOptions.apply(new RequestOptions().override(600, 200));
 
-        Glide.with(view.getContext()).applyDefaultRequestOptions(requestOptions).load(imageUri).into(view);
+        Glide.with(view.getContext()).applyDefaultRequestOptions(requestOptions) .load(imageUri).into(view);
 
   }
 }
